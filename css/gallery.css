@@ -1,0 +1,275 @@
+body{
+    background-color: #2e2e2e;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.section1{
+    height: 650px;
+    width: auto;
+    background-color: #110101;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.firstbar{
+    display: flex;
+   justify-content: center;
+}
+.pforforming{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    justify-content: center;
+}
+.secondnote{
+    letter-spacing: 2px;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 576px){
+    .firstbar .pforforming{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .secondnote{
+        font-size: 18px;
+        letter-spacing: 0;
+    }
+}
+
+.servicecontainer{
+    margin-top: 50px;
+}
+
+.rotateimg .animation img{
+    width: 150px;
+}
+
+.rotateimg
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.rotate_03{
+    -webkit-animation: spin 10s linear infinite;
+    -moz-animation: spin 10s linear infinite;
+    animation: spin 10s linear infinite;
+}
+
+
+
+@-webkit-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+
+
+.section2{
+    height: auto;
+    width: auto;
+    background-color: #110101;
+    display: flex;
+    justify-content: center;
+}
+
+.titleanimation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleanimation .animationtxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titleanimation .animationtxt h4{
+    font-size: 70px;
+}
+
+section{
+    height: auto;
+    width: auto;
+    background-color: #110101;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .section3 .worksorder .img img{
+    width: 730px;
+}
+
+section .section3 .worksorder{
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectioncommand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    font-size: 15px;
+    width: 650px;
+    padding-top: 50px;
+}
+
+@media(max-width: 576px){
+    section .section3 .worksorder .img img{
+        width: 400px;
+    }
+    .sectioncommand{
+        width: 350px;
+    }
+}
+
+.postercontainer{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.posterimgcontainer{
+    display: flex;
+    flex-direction: row;
+}
+.posterimg01 img{
+    width: 375px;
+    padding: 10px;
+}
+
+.viewbuttonforview{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    
+}
+
+.viewbuttonforview a{
+    background-color: #ef4036;
+    padding: 12.5px;
+    border-radius: 20px;
+}
+
+.viewbuttonforview a:hover{
+    color: white;
+    background-color: #f03329bd;
+}
+
+@media(max-width: 1480px){
+    .mobileviewofposter{
+        display: none;
+    }
+}
+@media(max-width: 1024px){
+    .mobileviewofposter{
+        display: none;
+    }
+}
+
+@media(max-width: 576px){
+    .posterimgcontainer{
+        display: none;
+    }
+    .mobileviewofposter{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgmobileview{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+    }
+    .imgmobil{
+        display: flex;
+        flex-direction: row;
+        gap: 2px;
+    }
+    .imgmobil img{
+        width: 100px;
+    }
+}
+
+.logocontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+}
+.logocontainer01{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logocontainer3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.logocontainer3 img{
+    width: 350px;
+    padding: 10px;
+}
+
+@media(max-width: 576px){
+    .logocontainer3 img{
+        width: 100px;
+        padding: 2px;
+    }
+}
+
+.siteending{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.siteending p{
+    padding: 8px;
+    font-size: 18px;
+}
+
+.contact-last{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.contact-last a {
+    padding: 8px;
+}
+.contact-last a span{
+    color: white;
+    padding: 6px;
+    font-size: 20px;
+}
+
+.contact-last a span:hover{
+    color: #ef4036;
+}
